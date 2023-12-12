@@ -1,0 +1,125 @@
+.hero_section {
+    background: linear-gradient(rgba(0, 0, 0, 0.162), rgba(0, 0, 0, 0.162)),
+        url("../assets/images/photo1.jpg") no-repeat center center;
+    background-size: cover !important;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero__content h2 {
+    text-align: center;
+    color: white;
+    font-size: 5.0rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero__content p {
+    text-align: center;
+    color: whitesmoke;
+
+    line-height: 28px;
+}
+
+.search__box {
+    align-items: center;
+    width: 30%;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-right: 12px;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+.search__box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    background-color: transparent;
+
+
+}
+
+.search__box span {
+    color: white;
+}
+
+
+.search__box input::placeholder {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px) {
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hero__content h2 {
+        font-size: 3rem;
+        padding: 10px;
+    }
+
+    .hero__content p {
+        font-size: 1.5rem;
+        padding: 20px;
+        line-height: 28px;
+    }
+
+
+}
+
+@media only screen and (max-width:576px) {
+    .hero__content h2 {
+        padding: 5px;
+        font-size: 2rem;
+
+    }
+
+    .hero__content p {
+        font-size: 1rem;
+        padding: 5px;
+        line-height: 28px;
+    }
+
+    .search__box {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+    .hero__content {
+        padding-top: 0;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .hero__content h2 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+
+
+}

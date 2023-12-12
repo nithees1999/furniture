@@ -1,0 +1,16 @@
+.errmsg {
+    color: red;
+}
+
+.container .card {
+    background: #8ec3eb;
+    width: 100%;
+}
+
+.btn {
+    margin-right: 10px;
+
+}
+.invalid{
+    border:1px solid red !important;
+}

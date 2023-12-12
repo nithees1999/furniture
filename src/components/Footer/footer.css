@@ -1,0 +1,23 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: grey;
+}
+.footer__quick-links ul li{
+    background: transparent !important;
+}
+.footer__quick-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.quick__links-title{
+    margin-bottom:20px;
+    color: white;
+    font-size: 1.1rem;
+}
+.footer__copyright{
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    text-align: center;
+}

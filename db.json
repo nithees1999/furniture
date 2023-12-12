@@ -1,0 +1,16 @@
+{
+  "user": [
+    {},
+    {
+      "id": "nithees",
+      "firstname": "n",
+      "lastname": "k",
+      "age": "21",
+      "email": "nk@gmail.com",
+      "password": "Nitheessang12",
+      "phone": "7904205667",
+      "address": "Madurai",
+      "gender": "male"
+    }
+  ]
+}

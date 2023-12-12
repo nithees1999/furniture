@@ -1,0 +1,37 @@
+.contact__content h2 {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.contact__content p {
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.homey img {
+    border-radius: 30px;
+
+
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .contact__content h2 {
+
+        font-size: 1.5rem;
+
+
+    }
+
+    .contact__content p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+
+}

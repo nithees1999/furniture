@@ -1,0 +1,8 @@
+.errmsg {
+    color: red;
+}
+
+.container .card {
+    background: #8ec3eb;
+    width: 100%;
+}
